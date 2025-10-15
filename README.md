@@ -1,1 +1,3 @@
-ola me chamo everton, sou dev junior, e esse e ou site que criei do zero, reprodutor de audio de um livro de doom casmurro
+ola me chamo everton, sou dev junior, e esse e meu site que criei do zero, e um reprodutor de audio de um livro de doom casmurro.
+ainda nao esta online, mais pode baixar os arquivos por aki e abrir no seu vscod, espero que gostem.
+o primeiro de muitos...
