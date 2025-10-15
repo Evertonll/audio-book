@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "montserrat", sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        hsl(0, 94%, 50%),
+        hsl(332, 95%, 22%)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#container-botoes {
+    display: flex;
+    gap: 10px;
+
+}
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#capitulo {
+    font-size: 22.4px;
+    font-weight: 700;
+    text-align: center;
+}   
+#nome-autor {
+    font-size: 19.2px;
+   
+}
+
+.anterior, .proximo {
+   width: 40px; ;
+    cursor: pointer;
+}
+#play-pause {
+    width: 60px;
+    cursor: pointer;
+}
+
+.pause {
+    display: none;
+}
+
+.tocando .play {
+    display: none;
+}
+.tocando .pause {
+    display:block;
+}
